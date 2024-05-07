@@ -21,11 +21,11 @@ class TextSentimentBrain {
             
             switch prediction.label {
             case "positive":
-               return "Oh, thats a nice comment! 🥳"
+               return "Oh, thats a nice Positive comment! 🥳"
             case "negative":
-                return "Why would you say such a thing? 😞"
+                return "Why would you say such a Negative thing? 😞"
             case "neutral":
-                return "🤔"
+                return "It's so neutral 🤔"
             default:
                 return "😱"
             }
